@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		header{
+			background-color: #2E64FE;
+			padding: 40px;
+			text-align: center;
+			font-size: 35px;
+			color: white;
+		}
+		header p{
+			font-size: 15px;
+			color:white;
+		}
+		nav{
+			float: left;
+			width: 30%;
+			height: 500px;
+			background-color: #5882FA;
+			padding: 25px;
+		}
+		nav ul{
+			list-style-type: none;
+			padding: 0;
+		}
+		article{
+			float: left;
+			padding: 25px;
+			width: 70%;
+			height: 450;
+			background-color:#E6E6E6;
+		}
+		section{
+			display: table;
+			clear: both;
+			content: "";
+		}
+		p{
+			text-align: justify;
+		}
+		@media (max-width: 800px){
+			nav,article{
+				width: 100%;
+				height: auto;
+			}
+		}
+		nav ul{
+			list-style-type:none ;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #5882FA;
+		}
+		nav li{
+			float: left;
+		}
+		nav li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover{
+			background-color: #0250A5 ;
+		}
+
+	</style>
+	<title>Liga española</title>
+</head>
+<body>
+	<header>
+		Liga Española
+	</header>
+	<section>
+		<nav>
+			<ul>
+
+				<li><a href="index1.html">inicio </a></li>
+				<li><a href="index.html">Tabla</a></li>
+			    <li><a href="#">goleadores</a></li>
+				<li><a href="index3.html"> Fechas pasadas</a></li>
+			</ul>	    
+		</nav>
+
+		<article>
+			<img src="img/gol.jpg" width="25%">
+		</article>
+
+		<article>
+			<table bgcolor="gray" border="1">
+				<tr>
+					<th bgcolor="skyblue" colspan="2">Goleadores</th>
+				</tr>
+				<tr>
+					<th>jugador</th>
+					<th>goles</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Karim Benzema</li>
+							<li>Junior Vincius</li>
+							<li>Juanmi</li>
+							<li>Memphis Depay</li>
+							<li>Joselu</li>
+						</ol>
+					</td>
+					<td>
+						<ul>
+							<li>11</li>
+							<li>9</li>
+							<li>8</li>
+							<li>8</li>
+							<li>7</li>
+						</ul>
+					</td>
+				</tr>
+
+			</table>
+		</article>
+		<article>
+			<a href="https://www.goleadores.es/la-liga#:~:text=Los%20mejores%20goleadores%20de%20La%20Liga%20en%20Espa%C3%B1a,es%20Lionel%20Messi%2C%20Barcelona%2C%20con%2022%20goles%20marcados.">mas info...</a>
+		</article>
+	</section>
+
+</body>
+</html>

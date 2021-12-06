@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="hoja.css">
+	<<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		header{
+			background-color: #2E64FE;
+			padding: 40px;
+			text-align: center;
+			font-size: 35px;
+			color: white;
+		}
+		header p{
+			font-size: 15px;
+			color:white;
+		}
+		nav{
+			float: left;
+			width: 30%;
+			height: 500px;
+			background-color: #5882FA;
+			padding: 25px;
+		}
+		nav ul{
+			list-style-type: none;
+			padding: 0;
+		}
+		article{
+			float: left;
+			padding: 25px;
+			width: 70%;
+			height: 450;
+			background-color:#E6E6E6;
+		}
+		section{
+			display: table;
+			clear: both;
+			content: "";
+		}
+		p{
+			text-align: justify;
+		}
+		@media (max-width: 800px){
+			nav,article{
+				width: 100%;
+				height: auto;
+			}
+		}
+		nav ul{
+			list-style-type:none ;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #5882FA;
+		}
+		nav li{
+			float: left;
+		}
+		nav li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover{
+			background-color: #0250A5 ;
+		}
+		article ul li{
+			list-style-type: none;
+		}
+		#categoria{
+			text-align: center;
+			color:white;
+		}
+		#portada{
+			float: left;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+
+		}
+		#link{
+			float: left;
+			width: 30%;
+			height: 500px;
+			background-color: #5882FA;
+			padding: 25px;
+		}
+		#link{
+			display: block;
+			color:white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		#link:hover{
+			background-color: #0250A5
+
+		}
+
+
+	</style>
+	<title>Liga española</title>
+</head>
+<body>
+	<header>
+		<div class="banner">
+		<h3> Liga Española</h3>
+	</div>
+	</header>
+	<section>
+		<nav>
+			<ul>
+
+				<li><a href="index1.html">inicio </a></li>
+				<li><a href="#">Tabla</a></li>
+			    <li><a href="index2.html">goleadores</a></li>
+				<li><a href="index3.html"> Fechas pasadas</a></li>
+			</ul>	    
+		</nav>
+
+		<article id="portada">
+			<img src="img/futbol.jpg" width="737" height="250">
+		</article>
+		<article>
+			<div class="main">
+			<table bgcolor="gray" border="1">
+				<tr>
+					<th colspan="9" bgcolor="skyblue"><img src="img/liga.jpg" width="5%" style="color:white;">Liga española</th>
+				</tr>
+				<tr id="categoria">
+					<td><h5 style="color:white;">Equipos</h5></td>
+					<td><h5>PJ</h5></td>
+					<td><h5>G</h5></td>
+					<td><h5>E</h5></td>
+					<td><h5>P</h5></td>
+					<td><h5>GF</h5></td>
+					<td><h5>GC</h5></td>
+					<td><h5>DG</h5></td>
+					<td><h5>PTOS</h5></td>
+
+				</tr>
+				<tr>
+					<td>
+						<ol>
+	       					<li><img src="img/madrid.jpg" width="1%" height="3%"> Real madrid</li>
+			    			<li><img src="img/atletico.jpg" width="1%"> Atlético Madrid</li>
+				    		<li><img src="img/sociedad.png" width="1%" height="3%"> Real Sociedad</li>
+					    	<li><img src="img/sevilla.jpg" width="1%" height="3%"> Sevilla FC</li>
+						    <li><img src="img/betis.jpg" width="1%" height="1%"> Real Betis Balompié</li>
+					    </ol>
+					</td><!-- partidos jugados-->
+					<td>
+						<ul>
+							<li>14</li>
+							<li>14</li>
+							<li>15</li>
+							<li>14</li>
+							<li>15</li>
+						</ul>
+					</td><!-- partidos ganados-->
+					<td>
+						<ul>
+							<li>10</li>
+							<li>08</li>
+							<li>08</li>
+							<li>08</li>
+							<li>08</li>
+						</ul>
+					</td><!-- partidos empatados-->
+					<td>
+						<ul>
+							<li>03</li>
+							<li>05</li>
+							<li>05</li>
+							<li>04</li>
+							<li>03</li>
+						</ul>
+					</td><!-- partidos perdidos-->
+					<td>
+						<ul>
+							<li>01</li>
+							<li>01</li>
+							<li>02</li>
+							<li>02</li>
+							<li>04</li>
+						</ul>
+					</td><!-- goles a favor-->
+					<td>
+						<ul>
+							<li>34</li>
+							<li>26</li>
+							<li>19</li>
+							<li>24</li>
+							<li>25</li>
+						</ul>
+					</td><!-- goles en contra-->
+					<td>
+						<ul>
+							<li>15</li>
+							<li>14</li>
+							<li>11</li>
+							<li>11</li>
+							<li>18</li>
+						</ul>
+					</td><!-- diferencia de goles-->
+					<td>
+						<ul>
+							<li>19</li>
+							<li>12</li>
+							<li>08</li>
+							<li>13</li>
+							<li>07</li>
+						</ul>
+					</td>
+					<td><!--puntos-->
+						<ul>
+							<li>33</li>
+							<li>29</li>
+							<li>29</li>
+							<li>28</li>
+							<li>27</li>
+						</ul>
+					</td>
+			</tr>
+			</table>
+		</div>
+		</article id="link">
+		<a href="https://www.laliga.com/laliga-santander/clasificacion">mas info...</a>
+	</section>
+
+</body>
+</html>

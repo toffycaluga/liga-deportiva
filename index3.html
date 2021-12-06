@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		header{
+			background-color: #2E64FE;
+			padding: 40px;
+			text-align: center;
+			font-size: 35px;
+			color: white;
+		}
+		header p{
+			font-size: 15px;
+			color:white;
+		}
+		nav{
+			float: left;
+			width: 30%;
+			height: 500px;
+			background-color: #5882FA;
+			padding: 25px;
+		}
+		nav ul{
+			list-style-type: none;
+			padding: 0;
+		}
+		article{
+			float: left;
+			padding: 25px;
+			width: 70%;
+			height: 450;
+			background-color:#E6E6E6;
+		}
+		section{
+			display: table;
+			clear: both;
+			content: "";
+		}
+		p{
+			text-align: justify;
+		}
+		@media (max-width: 800px){
+			nav,article{
+				width: 100%;
+				height: auto;
+			}
+		}
+		ul{
+			list-style-type:none ;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #5882FA;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #0250A5 ;
+		}
+
+	</style>
+	<title>Liga española</title>
+</head>
+<body>
+	<header>
+		Liga Española
+	</header>
+	<section>
+		<nav>
+			<ul>
+
+				<li><a href="index1.html">inicio </a></li>
+				<li><a href="index.html">Tabla</a></li>
+			    <li><a href="index2.html">goleadores</a></li>
+				<li><a href="#"> Fechas pasadas</a></li>
+			</ul>	    
+		</nav>
+		<article>
+			<table bgcolor="gray" border="1">
+				<tr>
+					<th bgcolor="skyblue" colspan="3">partidos pasados</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/osasuna.png" width="1%"> CA Osasuna
+					</td>
+					<td>
+						<p> 1-1 </p>
+					</td>
+					<td>
+						<img src="img/elche.png" width="5%"> Elche CF
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<a href="https://www.laliga.com/laliga-santander/calendario" >calendario</a>
+				    </td>
+				</tr>
+
+			</table>
+		</article>
+	</section>
+
+</body>
+</html>
